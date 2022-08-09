@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
+    "exec": "docker exec -it trybers_and_dragons bash",
     "dev": "nodemon --watch \"./src/**\" --ext \"ts,js\" --ignore \"src/**/*.spec.ts,src/**/*.json\" --exec \"ts-node src/index.ts\"",
     "test": "jest --runInBand --verbose",
     "fasttest": "jest --runInBand --verbose --bail",
