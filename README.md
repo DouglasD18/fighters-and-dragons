@@ -19,7 +19,7 @@ Here are the technologies used in this project.
 ## Features
 
 The main features of the application are:
- - Create an rpg game 
+ - Create a rpg game 
  - Create races of characters
  - Create characters attributes and skills
  - Create a fight function
